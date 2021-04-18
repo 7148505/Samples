@@ -1,6 +1,6 @@
 # Premiere Pro panels
 
-*Last updated November 2019, current released version = Premiere Pro 14.0, also known as "Premiere Pro 2020".*
+*Last updated October 2020, current released version = Premiere Pro 14.4, also known as "Premiere Pro 2020".*
 
 ## Premiere Pro 14.0 : API Improvements
 
@@ -22,7 +22,7 @@ Panels can generate the same system and project reports that PPro does; useful f
     (available under 'previous versions').
 
 - The [CEP Test
-    Panel](https://github.com/Adobe-CEP/CEP-Resources/tree/master/CEP_8.x/Samples/CEP_HTML_Test_Extension-8.0)
+    Panel](https://github.com/Adobe-CEP/CEP-Resources/tree/master/CEP_10.x/Samples/CEP_HTML_Test_Extension-10.0)
     shows the full capabilities of CEP panels.
 
 - The [PProPanel](https://github.com/Adobe-CEP/Samples/tree/master/PProPanel)
@@ -42,14 +42,14 @@ Panels can generate the same system and project reports that PPro does; useful f
 
 Further [relevant information](https://medium.com/adobetech/how-to-create-your-first-adobe-panel-in-6-easy-steps-f8bd4ed5778) is available from the Extensibility team.
 
-*Note: Premiere Pro 14.x integrates CEP9, so even if you had unsigned panels
-loading before (using CEP7 or CEP8), you'll need to perform this step again, but for key CSXS.9.*
+*Note: Premiere Pro 14.4 integrates CEP10, so even if you had unsigned panels
+loading before (using CEP8 or CEP9), you'll need to perform this step again, but for key CSXS.10.*
 
 On Mac, type the following into Terminal, then relaunch Finder (either via
 rebooting, or from the Force Quit dialog):
 
 ```html
-defaults write /Users/<username>/Library/Preferences/com.adobe.CSXS.9.plist PlayerDebugMode 1
+defaults write /Users/<username>/Library/Preferences/com.adobe.CSXS.10.plist PlayerDebugMode 1
 ```
 
 On Windows, make the following registry entry (a new Key, of type String):
@@ -141,7 +141,7 @@ do not connect their systems to the public internet, for installation using
 of Extension Manager.
 
 If you encounter any issues with the Add-Ons store or ExManCmd, please [contact
-the Add-Ons team](mailto:ccintrev@adobe.com).
+the Add-Ons team](mailto:kwak@adobe.com).
 
 ## Previous Updates
 
